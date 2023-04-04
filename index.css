@@ -1,0 +1,33 @@
+body {
+    background-color: black;
+    color: seashell;
+}
+
+nav {
+    display: flex;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+nav img {
+    display: inline-block;
+}
+
+.nav-links {
+    /* display: inline-block; */
+    list-style-type: none;
+    text-align: right;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 5px 5px;
+}
