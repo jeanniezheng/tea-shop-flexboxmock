@@ -1,33 +1,36 @@
 body {
     background-color: black;
     color: seashell;
+    height: 1000px;
 }
 
 nav {
-    display: flex;
     background-color: black;
-    justify-content: space-between;
-    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
 }
 
 .nav-container {
     display: flex;
+    justify-content: space-between;
     align-items: center;
+    padding: 10px;
 }
 
 nav img {
-    display: inline-block;
+    height: 50px;
 }
 
-.nav-links {
-    /* display: inline-block; */
+nav ul {
+    display: flex;
     list-style-type: none;
-    text-align: right;
-    justify-content: flex-end;
     margin: 0;
+    padding: 0;
+    justify-content: flex-end;
 }
 
 nav li {
-    display: inline;
-    margin: 5px 5px;
+    margin: 0 10px;
 }
