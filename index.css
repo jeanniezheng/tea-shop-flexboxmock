@@ -4,6 +4,8 @@ body {
     font-size: 22px;
     font-family: Helvetica;
     padding: 30px;
+    opacity: .9;
+    padding-bottom: 100px;
 }
 
 html,
@@ -74,6 +76,7 @@ nav li {
     margin: 10px;
 }
 
+
 .tea-title-container {
     display: flex;
     flex-direction: column;
@@ -91,10 +94,51 @@ nav li {
 .tea-image img {
     width: 300px;
     height: 200px;
+    flex-grow: 2;
 }
 
 .tea-image-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#location {
+    margin-top: 50px;
+    background-image: url('assets/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    width: 100%;
+
+}
+
+.locations-container {
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+
+#location h2 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 30px;
+}
+
+.location-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    width: 300px;
+}
+
+#contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
 }
