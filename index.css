@@ -3,12 +3,11 @@ body {
     color: seashell;
     font-size: 22px;
     font-family: Helvetica;
+    padding: 30px;
 }
 
 html,
 body {
-    margin: 0;
-    padding: 0;
     width: 100%;
     height: 100%;
 }
@@ -66,11 +65,36 @@ nav li {
     flex-direction: column;
     background-color: rgb(6, 7, 7);
     width: 100%;
-    align-self: center;
+    /* align-self: center; */
 }
 
 .mission-text h2,
-h4 {
+.mission-text h4 {
     text-align: center;
     margin: 10px;
+}
+
+.tea-title-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 50px;
+}
+
+.tea-title-container h2,
+.tea-title-container h4 {
+    margin: 10px;
+}
+
+.tea-image img {
+    width: 300px;
+    height: 200px;
+}
+
+.tea-image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
